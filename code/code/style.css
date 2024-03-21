@@ -1,3 +1,13 @@
+body{
+        background-image: url(https://assets.editorial.aetnd.com/uploads/2009/10/christmas-gettyimages-184652817.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
 h1 {
         font-size: 80px;
         text-align: center;
@@ -21,6 +31,25 @@ h2{
         color: blueviolet;
 }
 
+a:visited{
+        color: blueviolet;
+}
 
+a:focus{
+        color: brown ;
+}
+
+a:link{
+        color: violet;
+}
+
+a:hover{
+        color: coral;
+}
+
+menu{
+        list-style: none;
+        display: flex;
+}
 
 
